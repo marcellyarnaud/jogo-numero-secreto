@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root{
+    --font-family: 'Nunito', sans-serif;
+    --bg-color: #645CBB;
+    --primary-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+h1 {
+    font-size: 5em;
+}
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  button {
+    margin: 20px;
+  }
+  .btn-jogar {
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border-radius: 25px;
+    padding: 25px 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+    .btn-jogar {
+    background: rgb(247,150,192);
+  background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-jogar:hover{
+    background: transparent;
+    color: #ffffff;
+  }
